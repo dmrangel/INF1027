@@ -1,3 +1,5 @@
+package musica;
+
 public class Musica {
     private String titulo;
     private int duracao;
