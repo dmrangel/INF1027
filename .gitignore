@@ -1,0 +1,25 @@
+# Saida compilada
+bin/
+*.class
+
+# Maven (quando migrar)
+target/
+
+# VS Code — versiona so o settings.json, que carrega o classpath do JUnit
+.vscode/*
+!.vscode/settings.json
+
+# Metadados do Eclipse/JDT, se o language server gerar no projeto
+.classpath
+.project
+.settings/
+.factorypath
+
+# Logs de crash da JVM
+hs_err_pid*.log
+replay_pid*.log
+
+# Lixo de sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store

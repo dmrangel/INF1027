@@ -1,7 +1,8 @@
 package testes;
-import musicas.Usuario;
-import musicas.Playlist;
+import musica.Usuario;
+import musica.Playlist;
 import java.util.ArrayList;
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CriacaoPlaylist {
@@ -14,7 +15,7 @@ class CriacaoPlaylist {
         // criou playlist ou nao
         assertEquals(true, resultadoCriacao);
 
-        ArrayList<Playlist> playlists = new usuario.getListaPlaylist();
+        ArrayList<Playlist> playlists = usuario.getListaPlaylists();
         Playlist playlist = playlists.get(0);
 
         // numero de playlists
